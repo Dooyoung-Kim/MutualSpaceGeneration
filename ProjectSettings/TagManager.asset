@@ -11,6 +11,13 @@ TagManager:
   - VRTableOrigin
   - ARAnchor
   - VRAnchor
+  - Cube
+  - Sphere
+  - Cylinder
+  - Table
+  - Floor
+  - Wall
+  - Furniture
   layers:
   - Default
   - TransparentFX
@@ -18,8 +25,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - ARHost
+  - VRClient
   - 
   - 
   - 

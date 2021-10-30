@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 555076265}
   - component: {fileID: 555076264}
   - component: {fileID: 555076263}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,9 +107,9 @@ GameObject:
   - component: {fileID: 784897817}
   - component: {fileID: 784897816}
   - component: {fileID: 784897815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -202,9 +202,9 @@ GameObject:
   - component: {fileID: 1318149522}
   - component: {fileID: 1318149521}
   - component: {fileID: 1318149520}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -297,9 +297,9 @@ GameObject:
   - component: {fileID: 1794859033}
   - component: {fileID: 1794859032}
   - component: {fileID: 1794859031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -389,9 +389,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4538556353012975871}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Furniture
-  m_TagString: Untagged
+  m_TagString: Furniture
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -423,9 +423,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2173896100543664562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -454,9 +454,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1628894051018480692}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -498,9 +498,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1850041077365061005}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table
-  m_TagString: Untagged
+  m_TagString: ARTableOrigin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -531,7 +531,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5212026175362980385}
-  m_Layer: 0
+  - component: {fileID: 640766134}
+  m_Layer: 6
   m_Name: ARHost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -557,6 +558,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &640766134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5212026175362980384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 400b42487eeb5194c986fe4b87d66a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anchor: {fileID: 0}
 --- !u!1 &5212026175692395944
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,7 +583,7 @@ GameObject:
   - component: {fileID: 5212026175692395860}
   - component: {fileID: 5212026175692395947}
   - component: {fileID: 5212026175692395946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CellingPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -664,9 +678,9 @@ GameObject:
   - component: {fileID: 5212026175782519396}
   - component: {fileID: 5212026175782519419}
   - component: {fileID: 5212026175782519418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -759,9 +773,9 @@ GameObject:
   - component: {fileID: 5212026176063050276}
   - component: {fileID: 5212026176063050299}
   - component: {fileID: 5212026176063050298}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -854,9 +868,9 @@ GameObject:
   - component: {fileID: 5212026176126661934}
   - component: {fileID: 5212026176126661933}
   - component: {fileID: 5212026176126661932}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FloorPlane
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -949,9 +963,9 @@ GameObject:
   - component: {fileID: 5212026176257303246}
   - component: {fileID: 5212026176257303245}
   - component: {fileID: 5212026176257303244}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1044,9 +1058,9 @@ GameObject:
   - component: {fileID: 5212026176759501957}
   - component: {fileID: 5212026176759501956}
   - component: {fileID: 5212026176759501979}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1136,13 +1150,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7795405813637721527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Celling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7795405813637721527
 Transform:
   m_ObjectHideFlags: 0
@@ -1177,9 +1191,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1850041077365061005}
     m_Modifications:
+    - target: {fileID: 132559102555308809, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 132559102555308809, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346976978186532, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346976978186532, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
     - target: {fileID: 9061346977929428529, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
       propertyPath: m_Name
       value: DeskScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346977929428529, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9061346977929428530, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
       propertyPath: m_RootOrder
@@ -1225,6 +1259,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9061346978099255097, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346978099255097, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346978699008191, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346978699008191, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
 --- !u!4 &9189961235866602506 stripped
@@ -1239,6 +1289,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4538556353012975871}
     m_Modifications:
+    - target: {fileID: 1789347068, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1789347068, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177769969780788, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177769969780788, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177770504409067, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177770504409067, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
     - target: {fileID: 2480177771152145988, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1286,6 +1360,18 @@ PrefabInstance:
     - target: {fileID: 2480177771152145989, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
       propertyPath: m_Name
       value: BigScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177771152145989, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177771206571895, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177771206571895, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
@@ -1345,9 +1431,69 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6970056965474353178, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056965474353178, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056965489538837, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056965489538837, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056965628608200, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056965628608200, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056966023006480, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056966023006480, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056966265123641, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056966265123641, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056967097236415, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056967097236415, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056967100852083, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970056967100852083, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
     - target: {fileID: 7602994852560302111, guid: 724d783757713fd42ae249a07226e704, type: 3}
       propertyPath: m_Name
       value: SmallHighTable
+      objectReference: {fileID: 0}
+    - target: {fileID: 7602994852560302111, guid: 724d783757713fd42ae249a07226e704, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 724d783757713fd42ae249a07226e704, type: 3}
@@ -1363,9 +1509,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7795405813637721527}
     m_Modifications:
+    - target: {fileID: 196518, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196520, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196522, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196524, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196526, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196528, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196530, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_Name
       value: PRE_LAM_Ceiling_lamp_01_02 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_RootOrder
@@ -1453,9 +1631,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7795405813637721527}
     m_Modifications:
+    - target: {fileID: 196518, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196520, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196522, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196524, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196526, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196528, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196530, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_Name
       value: PRE_LAM_Ceiling_lamp_01_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_RootOrder
@@ -1543,9 +1753,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7795405813637721527}
     m_Modifications:
+    - target: {fileID: 196518, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196520, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196522, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196524, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196526, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196528, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196530, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_Name
       value: PRE_LAM_Ceiling_lamp_01_02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_RootOrder
@@ -1633,9 +1875,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7795405813637721527}
     m_Modifications:
+    - target: {fileID: 196518, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196520, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196522, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196524, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196526, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196528, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196530, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_Name
       value: PRE_LAM_Ceiling_lamp_01_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_RootOrder
@@ -1723,9 +1997,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7795405813637721527}
     m_Modifications:
+    - target: {fileID: 196518, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196520, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196522, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196524, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196526, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196528, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196530, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_Name
       value: PRE_LAM_Ceiling_lamp_01_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_RootOrder
@@ -1813,9 +2119,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7795405813637721527}
     m_Modifications:
+    - target: {fileID: 196518, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196520, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196522, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196524, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196526, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196528, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196530, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_Name
       value: PRE_LAM_Ceiling_lamp_01_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_RootOrder
@@ -1903,9 +2241,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7795405813637721527}
     m_Modifications:
+    - target: {fileID: 196518, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196520, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196522, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196524, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196526, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196528, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196530, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_Name
       value: PRE_LAM_Ceiling_lamp_01_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_RootOrder
@@ -1993,9 +2363,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7795405813637721527}
     m_Modifications:
+    - target: {fileID: 196518, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196520, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196522, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196524, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196526, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196528, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196530, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_Name
       value: PRE_LAM_Ceiling_lamp_01_02 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_RootOrder
@@ -2083,9 +2485,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7795405813637721527}
     m_Modifications:
+    - target: {fileID: 196518, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196520, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196522, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196524, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196526, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196528, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196530, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_Name
       value: PRE_LAM_Ceiling_lamp_01_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_RootOrder
@@ -2173,9 +2607,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7795405813637721527}
     m_Modifications:
+    - target: {fileID: 196518, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196520, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196522, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196524, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196526, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196528, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196530, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_Name
       value: PRE_LAM_Ceiling_lamp_01_02 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_RootOrder
@@ -2263,9 +2729,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7795405813637721527}
     m_Modifications:
+    - target: {fileID: 196518, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196520, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196522, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196524, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196526, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196528, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196530, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_Name
       value: PRE_LAM_Ceiling_lamp_01_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_RootOrder
@@ -2353,9 +2851,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7795405813637721527}
     m_Modifications:
+    - target: {fileID: 196518, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196520, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196522, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196524, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196526, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196528, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196530, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_Name
       value: PRE_LAM_Ceiling_lamp_01_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 196532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 496532, guid: a68f5a76f8bc1774ba4f697d673d2624, type: 3}
       propertyPath: m_RootOrder
@@ -2451,6 +2981,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Curtains
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 402bcdef02e93364cb81fcb80c55d4d5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 402bcdef02e93364cb81fcb80c55d4d5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 402bcdef02e93364cb81fcb80c55d4d5, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -2513,6 +3051,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4538556353012975871}
     m_Modifications:
+    - target: {fileID: 1789347068, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1789347068, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177769969780788, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177769969780788, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177770504409067, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177770504409067, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
     - target: {fileID: 2480177771152145988, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2561,6 +3123,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: BigScreen (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2480177771152145989, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177771206571895, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177771206571895, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
 --- !u!4 &5640060084799987926 stripped
@@ -2575,6 +3149,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4538556353012975871}
     m_Modifications:
+    - target: {fileID: 1789347068, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1789347068, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177769969780788, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177769969780788, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177770504409067, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177770504409067, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
     - target: {fileID: 2480177771152145988, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2623,6 +3221,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: BigScreen (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2480177771152145989, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177771206571895, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480177771206571895, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
+      propertyPath: m_TagString
+      value: Furniture
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c881ad57e9782ad40a122169c93037a9, type: 3}
 --- !u!4 &5640060085531300081 stripped
@@ -2640,6 +3250,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
       propertyPath: m_Name
       value: window_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
       propertyPath: m_RootOrder
@@ -2707,9 +3325,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1850041077365061005}
     m_Modifications:
+    - target: {fileID: 132559102555308809, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 132559102555308809, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346976978186532, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346976978186532, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
     - target: {fileID: 9061346977929428529, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
       propertyPath: m_Name
       value: DeskScreen (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346977929428529, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9061346977929428530, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
       propertyPath: m_RootOrder
@@ -2755,6 +3393,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9061346978099255097, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346978099255097, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346978699008191, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346978699008191, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
 --- !u!4 &1292118957144378589 stripped
@@ -2772,6 +3426,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 402bcdef02e93364cb81fcb80c55d4d5, type: 3}
       propertyPath: m_Name
       value: Curtains (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 402bcdef02e93364cb81fcb80c55d4d5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 402bcdef02e93364cb81fcb80c55d4d5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 402bcdef02e93364cb81fcb80c55d4d5, type: 3}
       propertyPath: m_RootOrder
@@ -2838,6 +3500,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
       propertyPath: m_Name
       value: window_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
       propertyPath: m_RootOrder
@@ -2909,6 +3579,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: window_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -2975,9 +3653,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1850041077365061005}
     m_Modifications:
+    - target: {fileID: 132559102555308809, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 132559102555308809, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346976978186532, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346976978186532, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
     - target: {fileID: 9061346977929428529, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
       propertyPath: m_Name
       value: DeskScreen (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346977929428529, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9061346977929428530, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
       propertyPath: m_RootOrder
@@ -3023,6 +3721,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9061346978099255097, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346978099255097, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346978699008191, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061346978699008191, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
+      propertyPath: m_TagString
+      value: Table
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9644766ec94c584ba4bc86d8173a4e8, type: 3}
 --- !u!4 &1292118956559269677 stripped
@@ -3040,6 +3754,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
       propertyPath: m_Name
       value: window_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3db81a724e4894e27841d803d4a6bb56, type: 3}
       propertyPath: m_RootOrder

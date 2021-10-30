@@ -31,6 +31,18 @@ namespace UVR.TranSpace.MutualSpace
 
         void Update()
         {
+
+        }
+
+        private float ComputeMatchRate(GameObject space1, GameObject space2)
+        {
+
+            return computedMateRatio;
+        }
+
+        private void InitialRotationSetting()
+        {    
+
             // There are only 4 possible rotation value that keep the parallel table edge condition
             for (int i = 0; i < 4; i++)
             {
@@ -43,12 +55,6 @@ namespace UVR.TranSpace.MutualSpace
                     maxRotationValue = Quaternion.Euler(0f,90f*i,0f);
                 }
             }
-        }
-
-        private float ComputeMatchRate(GameObject space1, GameObject space2)
-        {
-
-            return computedMateRatio;
         }
     }
 }
