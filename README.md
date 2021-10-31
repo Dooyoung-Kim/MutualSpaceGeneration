@@ -1,7 +1,5 @@
 # MutualSpaceGeneration
 
-Mutual Space Generation 알고리즘
-
 목표
 
 서로 다르지만 유사한 구조를 지닌 AR 호스트의 공간(>20m^2)과 VR 클라이언트의 공간으로부터 테이블 기반 원격 협업에 적합한 공유 공간 생성
