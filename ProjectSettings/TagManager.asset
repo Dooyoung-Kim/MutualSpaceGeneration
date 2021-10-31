@@ -18,6 +18,8 @@ TagManager:
   - Floor
   - Wall
   - Furniture
+  - ARFurniture
+  - VRFurniture
   layers:
   - Default
   - TransparentFX

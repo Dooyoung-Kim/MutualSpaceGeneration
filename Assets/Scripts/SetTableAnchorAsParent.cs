@@ -7,7 +7,6 @@ namespace UVR.TranSpace.MutualSpace
 {   
     public class SetTableAnchorAsParent : MonoBehaviour
     {
-        public static SetTableAnchorAsParent anchorAsParent;
         public GameObject Anchor;
 
         void Start()
@@ -22,7 +21,8 @@ namespace UVR.TranSpace.MutualSpace
         }
 
         public void setPositionToAnchor(){
-
+            transform.position = Anchor.transform.position;
+            transform.rotation = Anchor.transform.rotation;
         }
     }
 }
