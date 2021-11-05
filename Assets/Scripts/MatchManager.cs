@@ -83,9 +83,10 @@ namespace UVR.TranSpace.MutualSpace
             MaxRate.value = (float) maxMatchRate;
 
             StartRateText.text = "" + string.Format("{0:0.###}", startingMatchRate);
-            CurrentValueText.text = "Current Values\n" + "Rotation : " + Quaternion.Angle(Quaternion.Euler(0f, 0f, 0f), currentRotation) + "º\n" + "Scale Rate\n- Alpha : " + currentAlpha + "\n- Beta : " + currentBeta;
+            //CurrentValueText.text = "Current Values\n" + "Rotation : " + Quaternion.Angle(Quaternion.Euler(0f, 0f, 0f), currentRotation) + "º\n" + "Scale Rate\n- Alpha : " + currentAlpha + "\n- Beta : " + currentBeta;
+            CurrentValueText.text = "Current Values\n" + "Rotation : " + currentRotation.eulerAngles.y + "º\n" + "Scale Rate\n- Alpha : " + currentAlpha + "\n- Beta : " + currentBeta;
             CurrentRateText.text = "" + string.Format("{0:0.###}", currentScaleMatchRate);
-            FinalValueText.text = "Optimized Values\n" + "Rotation : " + Quaternion.Angle(Quaternion.Euler(0f, 0f, 0f), maxRotationValue) + "º\n" + "Scale Rate\n- Alpha : " + alpha + "\n- Beta : " + beta;
+            FinalValueText.text = "Optimized Values\n" + "Rotation : " + maxRotationValue.eulerAngles.y + "º\n" + "Scale Rate\n- Alpha : " + alpha + "\n- Beta : " + beta;
             MaxRateText.text = "" + string.Format("{0:0.###}", maxMatchRate);
         }
         
