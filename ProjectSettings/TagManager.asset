@@ -20,6 +20,8 @@ TagManager:
   - Furniture
   - ARFurniture
   - VRFurniture
+  - AugmentedObject
+  - DeletedObject
   layers:
   - Default
   - TransparentFX
