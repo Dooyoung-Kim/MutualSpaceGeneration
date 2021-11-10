@@ -105,13 +105,13 @@ namespace UVR.TranSpace.MutualSpace
                 //이전 각도 loop에서 maxMatchRate을 previousMaxMatchRate에 저장
                 //var previousMaxMatchRate = maxMatchRate;
                 
-                //ARAnchor rotation을 다시 VRAnchor rotation 값으로 초기화
-                ARAnchor.transform.rotation = VRAnchor.transform.rotation;
+                //VRAnchor rotation을 다시 ARAnchor rotation 값으로 초기화
+                VRAnchor.transform.rotation = ARAnchor.transform.rotation;
 
-                ARAnchor.transform.Rotate(0f, 90f * k, 0f);
-                SetARTableAnchorAsParent.ARAnchorAsParent.setPositionToARAnchor();
+                VRAnchor.transform.Rotate(0f, 90f * k, 0f);
+                SetVRTableAnchorAsParent.VRAnchorAsParent.setPositionToVRAnchor();
 
-                currentRotation = ARAnchor.transform.rotation;
+                currentRotation = VRAnchor.transform.rotation;
                 Debug.Log("Current Rotation Setting is " + currentRotation);
 
                 // Translation Gain threshold range according to [Steinicke et al., 2010]
@@ -146,7 +146,7 @@ namespace UVR.TranSpace.MutualSpace
                                 maxMatchRate = currentScaleMatchRate;
                                 alpha = currentAlpha;
                                 beta = currentBeta;
-                                Debug.Log("Max AR Host Space Rotation Setting : " + maxRotationValue);
+                                Debug.Log("Max VR Client Space Rotation Setting : " + maxRotationValue);
                                 Debug.Log("Max VR Client Space Scaling Setting (x scale, y scale, z scale) for VR Client Space is " + "(" + alpha + ", 1, " + beta + ")");
                                 Debug.Log("Max Match Ratio : " + maxMatchRate);
                             }
@@ -159,7 +159,7 @@ namespace UVR.TranSpace.MutualSpace
                 }
             }
 
-            setARHostToMaxMatchRotation();
+            setVRClientToMaxMatchRotation();
             setVRClientToMaxMatchScale();
 
             texting();
@@ -225,6 +225,11 @@ namespace UVR.TranSpace.MutualSpace
         private void setARHostToMaxMatchRotation(){
             ARAnchor.transform.rotation = maxRotationValue;
             SetARTableAnchorAsParent.ARAnchorAsParent.setPositionToARAnchor();
+        }
+
+        private void setVRClientToMaxMatchRotation(){
+            VRAnchor.transform.rotation = maxRotationValue;
+            SetVRTableAnchorAsParent.VRAnchorAsParent.setPositionToVRAnchor();
         }
         private void setVRClientToMaxMatchScale(){
             VRDT_2D.transform.localScale = new Vector3(

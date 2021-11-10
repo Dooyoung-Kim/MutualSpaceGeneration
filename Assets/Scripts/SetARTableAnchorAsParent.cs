@@ -8,7 +8,7 @@ namespace UVR.TranSpace.MutualSpace
     public class SetARTableAnchorAsParent : MonoBehaviour
     {
         public static SetARTableAnchorAsParent ARAnchorAsParent;
-        public GameObject Anchor;
+        public GameObject ARAnchor;
 
         void Start()
         {
@@ -17,18 +17,18 @@ namespace UVR.TranSpace.MutualSpace
             else
                 ARAnchorAsParent = this;
 
-            transform.position = Anchor.transform.position;
-            transform.rotation = Anchor.transform.rotation;
+            transform.position = ARAnchor.transform.position;
+            transform.rotation = ARAnchor.transform.rotation;
         }
         void Update()
         {
-            transform.position = Anchor.transform.position;
-            transform.rotation = Anchor.transform.rotation;
+            transform.position = ARAnchor.transform.position;
+            transform.rotation = ARAnchor.transform.rotation;
         }
 
         public void setPositionToARAnchor(){
-            transform.position = Anchor.transform.position;
-            transform.rotation = Anchor.transform.rotation;
+            transform.position = ARAnchor.transform.position;
+            transform.rotation = ARAnchor.transform.rotation;
             Debug.Log("AR Host Space position and rotation is set to AR Anchor");
         }
     }
